@@ -1,0 +1,149 @@
+public class Foo 
+{  
+    public static void main(String[] args) 
+    {
+        try 
+        { 
+            return; 
+        } 
+        finally 
+        {
+            System.out.println( "Finally" ); 
+        } 
+    } 
+}
+
+“\”Hello World\””
+
+
+
+Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?
+
+
+Question 4Answer
+
+a.
+The answer depends on the implementation of the existing instance.
+
+
+b.
+LinkedHashMap
+
+
+c.
+TreeMap
+
+
+d.
+HashMap
+
+ int x = 100;
+ double y = 100.1;
+ boolean b = (x = y); /* Line 7 */
+ System.out.println(b);
+
+       
+double num[] = {5.5, 10.1, 11, 12.8, 56.9, 2.5};
+
+            double result;
+
+            result = 0;
+
+            for (int i = 0; i < 6; ++i) 
+
+                result = result + num[i];
+
+	    System.out.print(result/6);
+
+
+
+What is the output of this program?
+
+    class increment {
+
+        public static void main(String args[]) 
+
+        {        
+
+             int g = 3;
+
+             System.out.print(++g * 8);
+
+        } 
+
+    }
+
+
+What is the output of this program?
+
+    class Modulus 
+
+    {
+
+        public static void main(String args[]) 
+
+        {    
+
+             double a = 25.64;
+
+             int  b = 25;
+
+             a = a % 10;
+
+             b = b % 10;
+
+             System.out.println(a + " "  + b);
+
+        } 
+
+    }
+
+
+
+float f = 1F;
+
+What will happen if two thread of same priority are called to be processed simultaneously?
+
+Question 11Answer
+
+a.
+Both of them will be executed simultaneously
+
+
+b.
+None of them will be executed
+
+
+c.
+It is dependent on the operating system
+
+
+d.
+Anyone will be executed first lexographically
+
+ int var1 = 42;
+
+            int var2 = ~var1;
+
+            System.out.print(var1 + " " + var2);  
+
+Which of these cannot be used for a variable name in Java?
+
+Question 16Answer
+
+a.
+identifier & keyword
+
+
+b.
+Identifier
+
+
+c.
+none of the mentioned
+
+
+d.
+Keyword
+
+

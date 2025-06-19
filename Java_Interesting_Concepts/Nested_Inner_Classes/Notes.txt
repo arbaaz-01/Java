@@ -1,0 +1,1 @@
+suppose ek class mai 100 fields hai jismai se 30 apar related hai to unka ek separte nested class bana denge to reduce complexity
