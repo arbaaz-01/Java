@@ -16,5 +16,8 @@ public class Main extends Object{
 
         System.out.println(set);
 
+        Integer.valueOf(0);
+        String.valueOf(23);
+
     }
 }

@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
@@ -30,6 +31,12 @@ public class Test {
 
         Collections.sort(list, comp);
         System.out.println(list);
+
+        // ArrayList<Integer> lst = Arrays.asList(1,2,3);   // error
+        List<Integer> lst = Arrays.asList(1,2,3);  
+
+
+
     }
 }
 
